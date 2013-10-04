@@ -12,4 +12,4 @@ resolvers += Classpaths.typesafeResolver
 
 resolvers += "Sonatype snapshots" at "http://oss.sonatype.org/content/repositories/snapshots/"
 
-addSbtPlugin("com.github.scct" % "sbt-scct" % "0.2-SNAPSHOT")
+addSbtPlugin("com.github.scct" % "sbt-scct" % "0.3-SNAPSHOT")
