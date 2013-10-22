@@ -1,5 +1,3 @@
-import sbt.scct.ScctPlugin
-
 name := "scctSample"
 
 version := "1.0-SNAPSHOT"
