@@ -6,4 +6,6 @@ libraryDependencies ++= Seq()
 
 play.Project.playScalaSettings
 
-seq(ScctPlugin.instrumentSettings : _*)
+ScctPlugin.instrumentSettings
+
+ScctPlugin.scctExcludePackages in ScctPlugin.ScctTest := "Reverse*,views.html"
